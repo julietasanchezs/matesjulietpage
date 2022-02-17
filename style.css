@@ -1,0 +1,87 @@
+
+
+/* header */
+
+.header-container {
+    color: black;
+    background-color: lightgray;
+    padding: 30px;
+    border: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.imagen-logotipo {
+    width: 120px;
+}
+
+.photo-grid-container-uno {
+    display: flex;
+    justify-content: center;
+    /* ahi tengo que modificar los flex direction y flex wrap */
+    justify-content: space-around;
+    padding: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.photo-grid-uno {
+    width: 250px;
+    
+}
+
+.parrafo-imagen {
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagen-parrafo {
+    width: 250px;
+    margin: 60px;
+}
+
+.margin {
+    margin: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    }
+
+.maps {
+    justify-content: center;
+    margin-left: 220px
+}
+
+
+.img-instagram {
+    width: 25px;
+}
+
+.margin-word {
+    margin: 12px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.parent {
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
